@@ -1,3 +1,4 @@
-const numberToReversedDigits = (number) => {};
-
+const numberToReversedDigits = (number) => {
+    return 
+};
 module.exports = numberToReversedDigits;
