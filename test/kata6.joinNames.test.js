@@ -11,6 +11,9 @@ describe("joinNames", () => {
     {
       name: "Maggie",
     },
+    {
+      name: "Baha",
+    }
   ]
   it("returns string of names, seperated by commas and an ampersand", () => {
     expect(
@@ -24,6 +27,9 @@ describe("joinNames", () => {
         {
           name: "Maggie",
         },
-      ])).toEqual('Bart, Lisa & Maggie')
+        {
+          name: "Baha",
+        }
+      ])).toEqual('Bart, Lisa, Maggie & Baha')
     });
   });
